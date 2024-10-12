@@ -1,12 +1,12 @@
 # BiometricAssist
 Решение для хакатона «Всероссийский хакатон по биометрии 2024» в кейсе «Разработка ассистента для упрощения регистрации в Единой биометрический системе»
 
-Программное решение разработано на языке Kotlin 1.9.22 для Android версии 7.0 (API level 24) и выше.
-Android-проект содержит в себе два модуля — подключаемую библиотеку `biometricassist` и тестовое приложение `app`.
-Библиотека `biometricassist` содержит два пакета — `face` и `voice`.
+Программное решение разработано на языке Kotlin 1.9.22 для Android версии 7.0 (API level 24) и выше.  
+Android-проект содержит в себе два модуля — подключаемую библиотеку `biometricassist` и тестовое приложение `app`.  
+Библиотека `biometricassist` содержит два пакета — `face` и `voice`.  
 
 ## Face
-Пакет `face` реализует оценку параметров качества изображения лица с помощью открытой библиотеки **ML Kit** от **Google** и выдачу соответствующих подсказок.
+Пакет `face` реализует оценку параметров качества изображения лица с помощью открытой библиотеки **ML Kit** от **Google** и выдачу соответствующих подсказок.  
 Перечень возможных подсказок:
 * NO_FACES_DETECTED — Не найдено ни одного лица
 * MULTIPLE_FACES_DETECTED — Больше одного лица на изображении
@@ -27,7 +27,7 @@ Android-проект содержит в себе два модуля — под
 Настройки параметров качества, по которым даются подсказки, находятся в класса `FaceQualityParameters`.
 
 ## Voice
-Пакет `voice` реализует оценку параметров качества записи голоса с помощью открытой библиотеки **SpeechRecognizer**, входящей в состав **Android SDK**, и выдачу соответствующих подсказок.
+Пакет `voice` реализует оценку параметров качества записи голоса с помощью открытой библиотеки **SpeechRecognizer**, входящей в состав **Android SDK**, и выдачу соответствующих подсказок.  
 Перечень возможных подсказок:
 * SPEAK_LOUDER — Говорите громче или переместитесь в более тихое место
 * SPEAK_QUIETLY — Говорите тише или отодвиньте телефон от лица
@@ -37,6 +37,6 @@ Android-проект содержит в себе два модуля — под
 * Настройки параметров качества, по которым даются подсказки, находятся в класса `VoiceQualityParameters`.
 
 ## Прототип
-Прототип решения находится в разделе [Releases](https://github.com/adonixis/BiometricAssist/releases/tag/1.0)
-[biometricassist.aar](https://github.com/adonixis/BiometricAssist/releases/download/1.0/biometricassist.aar) — подключаемая aar-библиотека
-[SampleApp.apk](https://github.com/adonixis/BiometricAssist/releases/download/1.0/SampleApp.apk) — тестовое приложение, использующее библиотеку
+Прототип решения находится в разделе [Releases](https://github.com/adonixis/BiometricAssist/releases/tag/1.0)  
+[biometricassist.aar](https://github.com/adonixis/BiometricAssist/releases/download/1.0/biometricassist.aar) — подключаемая aar-библиотека  
+[SampleApp.apk](https://github.com/adonixis/BiometricAssist/releases/download/1.0/SampleApp.apk) — тестовое приложение, использующее библиотеку  

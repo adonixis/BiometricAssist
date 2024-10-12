@@ -24,7 +24,21 @@ Android-проект содержит в себе два модуля — под
 * OPEN_EYES — Откройте глаза
 * IMPROVE_ILLUMINATION — Обеспечьте равномерное освещение лица
 * REDUCE_DISTORTION — Отодвиньте телефон от лица
-Настройки параметров качества, по которым даются подсказки, находятся в класса `FaceQualityParameters`.
+Настройки параметров качества, по которым даются подсказки, находятся в класса `FaceQualityParameters`.  
+
+Примеры работы тестового приложения на хороших фотографиях:  
+![image](https://github.com/user-attachments/assets/6093b3c8-b508-429f-86ca-b454cf8b91f8)
+![image](https://github.com/user-attachments/assets/2e01c9c0-8476-4121-850a-42798d3f95b6)  
+
+Примеры работы тестового приложения на плохих фотографиях:  
+![image](https://github.com/user-attachments/assets/56195bb3-9124-488a-a657-4562b0473b5f)
+![image](https://github.com/user-attachments/assets/e7a1d7f0-09c2-4811-90f3-7ba919b4083b)
+![image](https://github.com/user-attachments/assets/fddae9af-4e7e-45aa-8153-44da5e810ad2)
+![image](https://github.com/user-attachments/assets/fbc5f748-f30a-4ae2-addf-bef4a6e4c7e2)
+![image](https://github.com/user-attachments/assets/b04ea72f-fe4c-428d-a445-a77cb8a483f6)  
+
+В приложении имеется переключатель для отображения debug-информации, полезной для разработчиков:  
+![image](https://github.com/user-attachments/assets/25210318-d4d2-4c7a-a206-3a4877496dab)  
 
 ## Voice
 Пакет `voice` реализует оценку параметров качества записи голоса с помощью открытой библиотеки **SpeechRecognizer**, входящей в состав **Android SDK**, и выдачу соответствующих подсказок.  
@@ -34,7 +48,18 @@ Android-проект содержит в себе два модуля — под
 * SPEAK_RUSSIAN — Произнесите указанные цифры на русском языке
 * MOVE_TO_QUIETER_PLACE — Переместитесь в более тихое место
 * SPEAK_ONLY_NUMBERS — Произносите только указанные на экраны цифры
-* Настройки параметров качества, по которым даются подсказки, находятся в класса `VoiceQualityParameters`.
+* Настройки параметров качества, по которым даются подсказки, находятся в класса `VoiceQualityParameters`.  
+
+В тестовыом приложении в строке `text` отображается распознаваемый в реальном времени текст, в строке `signalNoise` — уровень шума.
+
+Пример работы тестового приложения с корректным воспроизведением цифр:  
+![image](https://github.com/user-attachments/assets/3352faa7-a8e4-47dc-9fbb-dc694555013e)  
+
+Пример работы тестового приложения с воспроизведением текста, отличного от цифр:  
+![image](https://github.com/user-attachments/assets/f453c193-bd43-4f9c-aadc-f0217dd862a3)  
+
+Пример работы тестового приложения с воспроизведением текста на другом языке:  
+![image](https://github.com/user-attachments/assets/43a6bac9-6c5d-4ff5-b8cd-d3789e24227d)  
 
 ## Прототип
 Прототип решения находится в разделе [Releases](https://github.com/adonixis/BiometricAssist/releases/tag/1.0)  

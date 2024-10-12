@@ -1,0 +1,26 @@
+package ru.adonixis.biometricassist.face
+
+data class FaceQualityParameters(
+    val shouldCheckFacesCount: Boolean = true,
+    val shouldCheckHeadPose: Boolean = true,
+    val shouldCheckEyesDistance: Boolean = true,
+    val shouldCheckHeadSize: Boolean = true,
+    val shouldCheckObstruction: Boolean = false,
+    val shouldCheckNotNeutral: Boolean = true,
+    val shouldCheckEyesClosed: Boolean = true,
+    val shouldCheckIllumination: Boolean = true,
+    val shouldCheckDistortion: Boolean = true,
+    val headPoseRotationXMin: Float = -10f,
+    val headPoseRotationXMax: Float = 10f,
+    val headPoseRotationYMin: Float = -5f,
+    val headPoseRotationYMax: Float = 5f,
+    val headPoseRotationZMin: Float = -5f,
+    val headPoseRotationZMax: Float = 5f,
+    val eyesDistanceRatioMin: Float = 0.15f,
+    val eyesDistanceRatioMax: Float = 0.2f,
+    val headSizeRatioMin: Float = 0.2f,
+    val headSizeRatioMax: Float = 0.4f,
+    val smilingProbabilityMax: Float = 0.4f,
+    val eyeOpenProbabilityMin: Float = 0.5f,
+    val illuminationMin: Float = 50.0f,
+)

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Biometric Assist</string>
+
+    <string name="no_faces_detected">Не найдено ни одного лица</string>
+    <string name="multiple_faces_detected">Больше одного лица на изображении</string>
+    <string name="raise_head">Поднимите голову, чтобы смотреть прямо в камеру</string>
+    <string name="lower_head">Опустите голову, чтобы смотреть прямо в камеру</string>
+    <string name="turn_head_left">Поверните голову влево, чтобы смотреть прямо в камеру</string>
+    <string name="turn_head_right">Поверните голову вправо, чтобы смотреть прямо в камеру</string>
+    <string name="rotate_head_clockwise">Поверниту голову по часовой стрелке, чтобы смотреть прямо в камеру</string>
+    <string name="rotate_head_counterclockwise">Поверниту голову против часовой стрелки, чтобы смотреть прямо в камеру</string>
+    <string name="move_phone_closer">Приблизьте телефон к лицу</string>
+    <string name="move_phone_farther">Отодвиньте телефон от лица</string>
+    <string name="face_fully_in_frame">Лицо должно быть полностью в кадре</string>
+    <string name="face_not_obstructed">Лицо должно быть полностью открыто</string>
+    <string name="neutral_expression_required">Выражение лица должно быть нейтральным</string>
+    <string name="open_eyes">Откройте глаза</string>
+    <string name="improve_illumination">Обеспечьте равномерное освещение лица</string>
+    <string name="reduce_distortion">Отодвиньте телефон от лица</string>
+
+    <string name="speak_louder">Говорите громче или переместитесь в более тихое место</string>
+    <string name="speak_quietly">Говорите тише или отодвиньте телефон от лица</string>
+    <string name="speak_russian">Произнесите указанные цифры на русском языке</string>
+    <string name="move_to_quieter_place">Переместитесь в более тихое место</string>
+    <string name="speak_only_numbers">Произносите только указанные на экраны цифры</string>
+</resources>

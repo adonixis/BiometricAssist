@@ -27,7 +27,7 @@ Android-проект содержит в себе два модуля — под
 Настройки параметров качества, по которым даются подсказки, находятся в класса `FaceQualityParameters`.  
 
 Примеры работы тестового приложения на хороших фотографиях:  
-<img src="https://github.com/user-attachments/assets/6093b3c8-b508-429f-86ca-b454cf8b91f8" height="300">
+<img src="https://github.com/user-attachments/assets/6093b3c8-b508-429f-86ca-b454cf8b91f8" height="500">
 ![image](https://github.com/user-attachments/assets/6093b3c8-b508-429f-86ca-b454cf8b91f8 =250x)
 ![image](https://github.com/user-attachments/assets/2e01c9c0-8476-4121-850a-42798d3f95b6 =250x)  
 

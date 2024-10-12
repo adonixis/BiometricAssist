@@ -33,6 +33,7 @@ Android-проект содержит в себе два модуля — под
 <img src="https://github.com/user-attachments/assets/6093b3c8-b508-429f-86ca-b454cf8b91f8" width="300">
 <img src="https://github.com/user-attachments/assets/2e01c9c0-8476-4121-850a-42798d3f95b6" width="300">  
   
+  
 Примеры работы тестового приложения на плохих фотографиях:  
   
 <img src="https://github.com/user-attachments/assets/56195bb3-9124-488a-a657-4562b0473b5f" width="300">
